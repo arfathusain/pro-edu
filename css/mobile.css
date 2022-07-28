@@ -34,4 +34,20 @@
     .arfat-5{
         margin-top: 40px;
     }
+
+
+    .arfat-6{
+        margin-top: 40px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 30px;
+        font-weight: bolder;
+    }
+    .arfat-7{
+        font-weight: bolder;
+    }
+    .arfat-8{
+        margin-top: 30px;
+        height: 200px;
+        margin-bottom: 40px;
+    }
 }
