@@ -1,42 +1,18 @@
-@media (max-width:10000px) {
-
-    /************* carouserl**************** */
-    .arfat-0{
-        font-size: 50px;
-        color: black;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
-    .arfat-1{
-        margin-bottom: 70px;
-        margin-top: 20px;
-        color: black;
-        font-weight: bold;
-        padding-left: 25px;
-        
-        padding-right: 25px;
-    }
-    .arfat-2{
-        color: black;
+@import url('https://fonts.googleapis.com/css2?family=Galada&family=Inter&family=Josefin+Sans&family=Lato&family=Manrope&family=Montserrat:ital@0;1&family=Noto+Serif+Bengali&family=Nunito&family=Open+Sans:wght@300&family=Oxygen&family=Poppins:ital,wght@0,300;0,400;0,500;1,400&family=Roboto:wght@500&display=swap');
+    body{
+      font-family: 'Inter', sans-serif;
     }
     
-    /************* carouserl end**************** */
-    
-
-    .arfat-3{
-        text-align: center;
-        margin-top: 50px;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        font-weight: bolder;
-        font-size: 40px;
+    @media screen and (max-width:576px) {
+      .cd-img-width{
+        width:100%;
+      }
     }
-    .arfat-5{
-        margin-top: 80px;
-    }
-    .arfat-8{
-        height: 300px;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-
-    
-}
+  .carousel-caption{
+    bottom: initial;
+    top: 50%;
+    transform: translate(-50%);
+  }
+  .bg-stat{
+    background-color: #82ccdd;
+  }

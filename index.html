@@ -10,291 +10,120 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-  <link rel="stylesheet" href="css/laptop.css">
-  <link rel="stylesheet" href="css/tablet.css">
-  <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/laptop.css">
 
-  <title>SAIMA ISLAM PORNA</title>
+  <title>Hello, world!</title>
 </head>
 
 <body>
 
-  <!--******************* nacvar *********************-->
+  <!--************************ navbar************************ -->
   <div class="container">
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <div class="container-fluid">
-        <a class="navbar-brand fs-3 fw-bold" href="#">PANDA</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-auto">
+      <div class="container">
+        <a class="navbar-brand fw-bold fs-1" href="#"><span class="text-success">Teach</span> Book</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mb-2 mb-lg-0 me-auto">
-            <div class="d-flex">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Courses </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Deals </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Success </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Register </a>
-              </li>
-            </div>
+          <ul class="navbar-nav me-auto mb-2 mx-5  mb-lg-0 fw-bold px-3">
+            <li class="nav-item px-2">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link" href="#">Courses </a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link" href="#">Deals </a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link" href="#">Success </a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link" href="#">About</a>
+            </li>
           </ul>
-          <form class="d-flex ">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
+          <form class="d-flex">
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-success btn-lg fw-bold" data-bs-toggle="modal"
+              data-bs-target="#staticBackdrop">
+              JOIN US
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+              aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Are you sure to join with us? </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    To join with us you need to fill up this form with your details address. <br>
+                    <a href="">CLICK ME</a>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-success"><a href="https://github.com/arfathusain"
+                        class="text-light text-decoration-none">CLICK ME</a></button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </form>
         </div>
       </div>
     </nav>
   </div>
-  <!--****************** navbar end **********************-->
-  <!--****************** carouserl ************************-->
-  <div class="container mt-4">
+  <!--************************ navbar end************************ -->
+
+
+  <!--************************ navbar end************************ -->
+  <section class="container " id="home">
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-          aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-          aria-label="Slide 2"></button>
-
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="images/cover/cover-1.png" class="d-block w-100  opacity-50" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h1 class="arfat-0">Get Started Digital
-              Learning
-            </h1>
-            <p class="arfat-2">It is a long established fact that a reader will be distracted by the readable
-              content of a page when looking at its layout.
-              .</p>
-            <button class="btn btn-info arfat-1">Get Started</button>
+          <img src="images/cover/cover-1.png" class="d-block w-100 img-fluid" alt="...">
+          <div class="carousel-caption position-absolute top-50 start-10 translate-middle-y pt-lg-5">
+            <h5 class="fw-bolder pt-5 fs-1">Unlock Your Inner Strength</h5>
+            <p>We are a non-profit organization dedicated to providing free, world-class education to anyone at all, wherever.</p>
+              <button type="button" class="btn btn-success btn-lg">Let's Go</button>
           </div>
         </div>
+        
         <div class="carousel-item">
-          <img src="images/cover/cover-3.jpg" class="d-block w-100 opacity-50" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h1 class="arfat-0">Get Started Digital
-              Learning
-            </h1>
-            <p class="arfat-2">It is a long established fact that a reader will be distracted by the readable
-              content of a page when looking at its layout.
-              .</p>
-            <button class="arfat-1 btn btn-info">Get Started</button>
+          <img src="images/cover/cover-3.jpg" class="d-block w-100 img-fluid" alt="...">
+          <div class="carousel-caption position-absolute top-50 start-10 translate-middle-y pt-lg-5">
+            <h5 class="fw-bolder pt-5 fs-1">Learn Without Limits</h5>
+            <p>We give instructors the tools they need to support their entire classroom. Teach Book has been considered to be effective by 80 percent of BD teachers who have used it.</p>
+              <button type="button" class="btn btn-success btn-lg">Let's Go</button>
           </div>
         </div>
+        
+        
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-        data-bs-slide="prev">
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-        data-bs-slide="next">
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
     </div>
-  </div>
-  <!--****************** carouserl end ************************-->
-  <!--****************** Discover ************************-->
-  <div class="container">
-    <h1 class="arfat-3">Discover Our Popular
-      Courses
-    </h1>
-    <p class="text-center">It is a long established fact that a <br> reader will be distracted by the readable
-      content of a page when looking at its layout.
-    </p>
-    <div class="row arfat-5">
-      <div class="col-sm-12 col-md-12 col-lg-6">
-        <div class="card mb-3" style="max-width: 540px;">
-          <div class="row g-0">
-            <div class="col-md-4 arfat-4 d-flex justify-content-center">
-              <img src="images/course/course-1.png" class="img-fluid rounded-start" alt="...">
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Fundamental Of UI/UX Design</h5>
-                <p class="card-text">Some quick example text to build on the card title
-                  and make up the bulk of the card.</p>
-                <p class="card-text">
-                <h3 class="text-info fw-bold">PRICE:40$</h3>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-12 col-md-12 col-lg-6 mt-3">
-        <div class="card mb-3" style="max-width: 540px;">
-          <div class="row g-0">
-            <div class="col-md-4 d-flex justify-content-center">
-              <img src="images/course/course-2.png" class="img-fluid rounded-start" alt="...">
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Javascript Basic to advanced</h5>
-                <p class="card-text">Some quick example text to build on the card title
-                  and make up the bulk of the card</p>
-                <p class="card-text">
-                <h3 class="text-info fw-bold">PRICE:40$</h3>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+  </section>
+  <!--************************ navbar end************************ -->
 
-    <div class="row">
-      <div class="col-sm-12 col-md-12 col-lg-6">
-        <div class="card mb-3" style="max-width: 540px;">
-          <div class="row g-0">
-            <div class="col-md-4 d-flex justify-content-center">
-              <img src="images/course/course-3.png" class="img-fluid rounded-start" alt="...">
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Fullstack Web Development</h5>
-                <p class="card-text">Some quick example text to build on the card title
-                  and make up the bulk of the card.</p>
-                <p class="card-text">
-                <h3 class="text-info fw-bold">PRICE:40$</h3>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-12 col-md-12 col-lg-6">
-        <div class="card mb-3" style="max-width: 540px;">
-          <div class="row g-0">
-            <div class="col-md-4 d-flex justify-content-center">
-              <img src="images/course/course-4.png" class="img-fluid rounded-start" alt="...">
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Digital Marketing</h5>
-                <p class="card-text">Some quick example text to build on the card title
-                  and make up the bulk of the card.</p>
-                <p class="card-text">
-                <h3 class="text-info fw-bold">PRICE:40$</h3>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+  <!--************************ Discover ************************ -->
 
-    <div class="row ">
-      <div class="col-sm-12 col-md-12 col-lg-6 mt-3">
-        <div class="card mb-3" style="max-width: 540px;">
-          <div class="row g-0">
-            <div class="col-md-4 d-flex justify-content-center">
-              <img src="images/course/course-5.png" class="img-fluid rounded-start" alt="...">
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Photography Basic Rules</h5>
-                <p class="card-text">Some quick example text to build on the card title
-                  and make up the bulk of the card.</p>
-                <p class="card-text">
-                <h3 class="text-info fw-bold">PRICE:40$</h3>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-12 col-md-12 col-lg-6">
-        <div class="card mb-3" style="max-width: 540px;">
-          <div class="row g-0">
-            <div class="col-md-4 d-flex justify-content-center">
-              <img src="images/course/course-6.png" class="img-fluid rounded-start" alt="...">
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Motion Graphics</h5>
-                <p class="card-text">Some quick example text to build on the card title
-                  and make up the bulk of the card.</p>
-                <p class="card-text">
-                <h3 class="text-info fw-bold">PRICE-40$</h3>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover"
-      title="Welcome to all of you who will buy our courses. They can buy from the link below">See More Courses</button>
-
-
-
-
-  </div>
-  <!--****************** Discover end ************************-->
-
-  <!--****************** explore ************************-->
-  <div class="container mt-5">
-    <div class="row mt-5">
-      <div class="col-12 col-md-6">
-        <img src="images/working.png" class="img-fluid" alt="">
-      </div>
-      <div class="col-12 col-md-6 bg-light d-flex flex-column justify-content-center px-5">
-        <div class="">
-          <h1 class="text-dark arfat-6">Explore The elearning
-            Institute</h1>
-          
-            <div class="overflow-auto  arfat-8">
-              <p>There are many variations of passages of Lorem Ipsum available, but the
-                majority have suffered alteration in some form, by injected humour, or
-                randomised words which don't look even slightly believable. If you are going
-                to use a passage of Lorem Ipsum, you need to be sure.</p>
-                <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam consequatur, non reprehenderit vel natus animi. Distinctio, exercitationem corrupti. Cupiditate dignissimos sed cumque sequi quod, alias explicabo amet dolore vero fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores est explicabo magni distinctio placeat deserunt accusamus expedita eos laudantium eveniet, aut consequatur, mollitia voluptas exercitationem asperiores fugiat id facilis unde. Cum, deserunt? Ut veritatis quia placeat expedita quod dolorum, amet optio libero recusandae error modi minima dolores non facilis totam?
-                </p>
-            </div>
-          
-          <div class="row">
-            <div class="col-4 col-md-6 col-lg-4">
-              <h1 class="arfat-7">3.2k+</h1>
-              <p class="">online course</p>
-            </div>
-            <div class="col-4 col-md-6 col-lg-4">
-              <h1 class="arfat-7">600+</h1>
-              <p class="">expent course</p>
-            </div>
-            <div class="col-4 col-md-6 col-lg-4">
-              <h1 class="arfat-7">1k+</h1>
-              <p class="">rating & review</p>
-            </div>
-          </div>
-        </div>
-        <div class="">
-          <button class="btn btn-info rounded border fw-bold fs-4 px-3">READ MORE</button>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!--****************** explore end ************************-->
-
-
-
-
+  <!--************************ Discover end************************ -->
 
 
   <!-- Optional JavaScript; choose one of the two! -->
